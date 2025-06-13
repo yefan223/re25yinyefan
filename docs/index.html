@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>re25yinyefan</title>
+</head>
+<body>
+    <h1>Hello from re25yinyefan</h1>
+    <h4 id="timeDisplay"></h4>
+    <h5 id="dateDisplay"></h5>
+    <script>
+        const date = new Date();
+        document.getElementById("timeDisplay").innerHTML = "Time: " + date.toLocaleTimeString();
+        document.getElementById("dateDisplay").innerHTML = "Date: " + date.toLocaleDateString();
+    </script>
+</body>
+</html>
